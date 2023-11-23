@@ -21,11 +21,11 @@ def IndexVideo(url):
         return
     
     print("Links: " + text)
-    print("=======================================")
 
     links = re.findall(r"https?://\S+", text)
     for link in links:
-        print(youtube.title)
+        print("Choice: " + youtube.title)
+        print("=======================================")
         if link in data:
             return
         data[link] = {
