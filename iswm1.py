@@ -21,6 +21,7 @@ def IndexVideo(url):
         return
     
     print("Links: " + text)
+    print("=======================================")
 
     links = re.findall(r"https?://\S+", text)
     for link in links:
