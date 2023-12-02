@@ -1,6 +1,6 @@
 import re
 import pytube as pt
-import jso
+import json
 
 
 data = {}
